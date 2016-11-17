@@ -1,9 +1,5 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  name: MyString
-  email: foobar@gmail.com
-
-two:
-  name: helloruby
-  email: rails@yahoo.com
+subba:
+  name: subba paritala
+  email: subbaparitala@gmail.com
+  password_digest: <%= User.digest('password') %>
